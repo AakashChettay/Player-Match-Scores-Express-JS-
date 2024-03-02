@@ -1,0 +1,18 @@
+GET https://chettayaakashqhyvpnjscpscvyl.drops.nxtwave.tech/players/
+
+GET https://chettayaakashqhyvpnjscpscvyl.drops.nxtwave.tech/players/5/
+
+PUT https://chettayaakashqhyvpnjscpscvyl.drops.nxtwave.tech/players/5/
+Content-Type: application/json
+
+{
+  "playerName": "Raju"
+}
+
+GET https://chettayaakashqhyvpnjscpscvyl.drops.nxtwave.tech/matches/7/
+
+GET https://chettayaakashqhyvpnjscpscvyl.drops.nxtwave.tech/players/4/matches
+
+GET https://chettayaakashqhyvpnjscpscvyl.drops.nxtwave.tech/matches/2/players
+
+GET https://chettayaakashqhyvpnjscpscvyl.drops.nxtwave.tech/players/4/playerScores
